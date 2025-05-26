@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+scikit-learn
+torch
+transformers
+sentence-transformers
+Pillow
+tqdm
+ipykernel
+jupyter
+opencv-python
+faiss-cpu
