@@ -1,0 +1,18 @@
+data:
+  raw_path: "../data/raw"
+  processed_path: "../data/processed"
+  image_path: "../data/raw/images"
+
+outputs:
+  model_dir: "../outputs/model_weights"
+  plots_dir: "../outputs/visualizations"
+  logs_dir: "../outputs/logs"
+
+model:
+  embedding_model: "all-MiniLM-L6-v2"  # from sentence-transformers
+  clip_model: "openai/clip-vit-base-patch32"
+  classifier_type: "logistic"  # or "xgboost"
+
+training:
+  test_size: 0.2
+  random_seed: 42
